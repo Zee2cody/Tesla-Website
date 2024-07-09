@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+
+  <style>
+    * {
+      font-family: "Lato", sans-serif;
+    }
+
+    .headerButton {
+      background-color: transparent;
+
+      border: none;
+      margin-top: 18px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+
+      top: 200px;
+      right: 1000px px;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 1440px;
+      margin: auto;
+    }
+     .row {
+      display: flex;
+      gap: 24px;
+      justify-content:  center;
+     }
+     .card-title {
+      font-size: 1.1vw;
+      font-weight: 600;
+     }
+
+     .buy-button {
+      opacity: 0;
+      transition: 0.5s;
+      padding: 10px 24px;
+      border-radius: 20px;
+      color: white;
+      translate: 0 40px;
+     
+
+     }
+     .card:hover .buy-button {
+      background-color: black;
+      opacity: 1;
+      translate: 0 20px;
+      text-decoration: none;
+     }
+
+  </style>
+</head>
+
+<body>
+  <div style="display: flex">
+    <button onclick="window.location.href= 'http://127.0.0.1:5500/index.html';"
+      style="border:none; background-color: transparent; ">
+      <img style="margin-top: 15px; margin-left: 45px;" src="samsung logo.svg" alt="" />
+    </button>
+
+    <div class="nav">
+      <div class="dropdown">
+        <button style="margin-left: 70px" class="headerButton">
+          <b>Shop</b>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">shop</a>
+          <a href="#">shop</a>
+          <a href="#"> shop</a>
+        </div>
+      </div>
+      <button class="headerButton">
+        <b>AI</b>
+      </button>
+      <button class="headerButton">
+        <b>Mobile</b>
+      </button>
+      <button class="headerButton">
+        <b>TV & Audio</b>
+      </button>
+      <button class="headerButton">
+        <b>Appliances</b>
+      </button>
+      <button class="headerButton">
+        <b>Computing</b>
+      </button>
+      <button class="headerButton">
+        <b> Displays</b>
+      </button>
+      <button class="headerButton">
+        <b>Accessories</b>
+      </button>
+      <button class="headerButton">
+        <b>SmartThings</b>
+      </button>
+      <button style="background-color: transparent; margin-top: 18px; border: none; margin-left: 200px;">
+        <b>Explore</b>
+      </button>
+      <button class="headerButton">
+        <b> Support</b>
+      </button>
+      <button class="headerButton">
+        <b>For Buisness</b>
+      </button>
+      <button style="border: none; background-color: transparent;">
+        <img style="width: 25px; margin-top: 18px; margin-left: 30px;" src="icon1.svg" alt="" srcset="">
+      </button>
+      <button onclick="window.location.href='https://www.samsung.com/us/web/express/cart/';"
+        style="background-color: transparent; border: none;">
+        <img style="width: 25px; margin-top: 18px ; margin-left :0px; background-color: transparent; border: none; "
+          src="https://www.logolynx.com/images/logolynx/e5/e59fdcc3bd1577e7cbb5e77ea8c2055b.png" alt="">
+      </button>
+      <button style="background-color: transparent; border: none;">
+        <img style="width: 25px; margin-top: 18px; " src="d.svg" alt="">
+      </button>
+    </div>
+  </div>
+  <center>
+    <div
+      style="background-image: url(https://images.samsung.com/is/image/samsung/assets/us/home/7052024/HP_Scom_unpacked_Invitation_countdown_KV_pc.jpg?imwidth=2560); height: 90vh; width: 93.5vw; background-size: cover; margin-top: 25px; ">
+      <div
+        style="display: flex; flex-direction: column; justify-content:center; align-items: left;   height: 100%; padding-left: 90px;">
+        <p style="color: black; font-size: large; margin: 0%; width: fit-content; padding-left: 3px; padding-bottom: px;"><b>Exclusive Offer</b>
+        </p>
+        <h2
+          style="color: black; font-size: 55px;width: 600px; text-align: left; padding-right: 92vh;  margin: 0%; padding-top: 10px;">
+          Unfold your story with Galaxy AI</h2>
+        <p
+          style="font-size: 1.25vw; color: black; width: 700px; text-align: left; padding-right: 540px; margin-bottom: 40px;">
+          Reserve your
+          $50 instant Samsung Credit and save up to $1,500 when you pre-order a new Galaxy device.<sup>≡</sup> Plus,
+          enter the sweepstakes for a chance to win a $5,000 credit.<sup>Ϟ</sup></p>
+        
+
+        <a href="https://www.samsung.com/us/smartphones/the-next-galaxy/reserve/"
+          style="background-color: black ; border-radius: 20px; color: white; padding: 10px 30px; text-decoration: none; width: fit-content; height: 20px ;font-size: .9vw; margin-bottom: 55px;"><b>
+            Reserve Now </b>
+        </a>
+      </div>
+  </center>
+  </div>
+  <center>
+    <div>
+      <h2 style="margin-top: 40px; font-size: 45px; margin-bottom: 23px;">Shop all latest offers and innovations</h2>
+      <a style="font-size: large;"> <b><u>View all offers</u> </b></a>
+    </div>
+
+    <div style="margin-top: 30px; display: flex; gap: 40px">
+      <button style="background-color: transparent; border: none; margin-left: 330px;">
+        <b style="font-size: large;"> <u>For You</u></b>
+      </button>
+      <button style="background-color: transparent; border: none ;">
+        <b style="font-size: large;">Mobile</b>
+      </button>
+      <button style="background-color: transparent; border: none;">
+        <b style="font-size: large;"> Back to School Gifts</b>
+      </button>
+      <button style="background-color: transparent; border: none;">
+        <b style="font-size: large;"> Tv & Audio</b>
+      </button>
+      <button style="background-color: transparent; border: none;">
+        <b style="font-size: large;"> Home Appliances</b>
+      </button>
+      <button style="background-color: transparent; border: none;">
+        <b style="font-size: large;"> Computing </b>
+      </button>
+  </center>
+  <div class="cards-container">
+    <div class="row">
+      <button
+        class="card"
+        style="width: 450px; height: 330px; background-color: f4f4f4; border: 0; border-radius: 20px; margin-top: 20px; display: flex; flex-direction: column; align-items: center;">
+        <img style="mix-blend-mode: multiply; width: 258px; margin-bottom:0px; margin-right: 20px; margin-top: 12px;" 
+          src="https://image-us.samsung.com/SamsungUS/home/computing/monitors/gaming/04162024/LS57CG952NNXZA_V2.jpg?$product-card-small-jpg$"
+          alt="">
+         
+        <a style="width: 300px;" class="card-title">57" Odyssey Neo G9 Dual 4K UHD Curved Gaming Monitor</a>
+        <a href="https://www.samsung.com/us/computing/monitors/gaming/57-odyssey-neo-g9-dual-4k-uhd-quantum-mini-led-240hz-1ms-hdr-1000-curved-gaming-monitor-ls57cg952nnxza/" class="buy-button">
+          Buy Now
+        </a>
+      </button>
+      <button class="card"
+        style="width: 450px; height: 330px; background-color: f4f4f4; border: 0; border-radius: 20px; margin-top: 20px; display: flex; flex-direction: column; align-items: center;">
+        <img style="mix-blend-mode: multiply; width: 268px; margin-bottom: 13px; margin-right: 20px; margin-top: 12px;"
+          src="https://image-us.samsung.com/SamsungUS/home/computing/monitors/smart-monitors/06072024/ls43dm703unxza/1_S43DM700_001_Front1_White_wBadge.jpg?$product-card-small-jpg$"
+          alt="">
+          <a class="card-title"> 43" M70D 4K UHD Smart Monitor </a>  
+          <a href="https://www.samsung.com/us/computing/monitors/smart-monitors/43-smart-monitor-m7-m70d-4k-uhd-with-streaming-tv-speakers-and-usb-c-white-ls43dm703unxza/" class="buy-button">
+            Buy Now
+          </a>
+      </button>
+      <button class="card"
+        style="width: 450px; height:330px; background-color: f4f4f4; border: 0; border-radius: 20px; margin-top: 20px; display: flex; flex-direction: column; align-items: center;">
+        <img style="mix-blend-mode: multiply; width: 268px; margin-bottom: 13px; margin-right: 20px; margin-top: 12px;"
+          src="https://image-us.samsung.com/SamsungUS/home/my-assets/101223/White.jpg?$product-card-small-jpg$"
+          alt="">
+          <a class="card-title"> Galaxy Buds FE</a>
+          <a href="https://www.samsung.com/us/mobile/audio/headphones/galaxy-buds-fe-white-sm-r400nzwaxar/" class="buy-button">
+            Buy Now
+          </a>
+      </button>
+    </div>
+    <div class="row">
+      <div> <button class="card"
+        style="width: 450px; height:330px; background-color: f4f4f4; border:0; border-radius: 20px; margin-top: 20px; display: flex;  flex-direction: column; align-items: center;">
+        <img style="mix-blend-mode: multiply; width: 268px; margin-bottom: 13px; margin-right: 20px; margin-top: 12px;"
+          src="https://image-us.samsung.com/us/mobile-audio/galaxy-buds2-pro/gallery/graphite/Q4B4B2C-86-SM-R510_001_Front_Graphite_RGB-GalleryImage-1600x1200.jpg?$product-card-small-jpg$"
+          alt="">
+          <a class="card-title">Galaxy Buds2 Pro</a>
+          <a href="https://www.samsung.com/us/mobile/audio/headphones/galaxy-buds2-pro-graphite-sm-r510nzaaxar/" class="buy-button"> Buy Now</a>
+      </button></div>
+      <div> <button class="card"
+        style="width: 450px; height:330px; background-color: f4f4f4; border: 0; border-radius: 20px; margin-top: 20px; display: flex; flex-direction: column; align-items: center;">
+        <img style="mix-blend-mode: multiply; width: 268px; margin-bottom: 20px; margin-right: 20px; margin-top: 12px;"
+          src="https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E3_TitaniumYellow_Lockup_1600x1200.jpg?$product-card-small-jpg$">
+          <a  class="card-title">Galaxy S24 Ultra, 256GB (Unlocked)</a>
+          <a href="" class="buy-button"> Buy Now</a>
+
+      </button></div>
+      <div> <button class="card"
+        style="width: 450px; height:330px; background-color: f4f4f4; border: 0; border-radius: 20px; margin-top: 20px;  display: flex; flex-direction: column; align-items: center;">
+        <img style="mix-blend-mode: multiply; width: 268px; margin-bottom: 20px; margin-right: 20px; margin-top: 12px;"
+          src="https://image-us.samsung.com/us/smartphones/galaxy-z-fold5/PhantomBlack/1.jpg?$product-card-small-jpg$"
+          alt=""> 
+          <a style="p" class="card-title"> Galaxy Z Fold5, 512 GB</a>
+          <a href="https://www.samsung.com/us/smartphones/galaxy-z-fold5/buy/galaxy-z-fold5-512gb-att-sm-f946uzkeatt/?modelCode=SM-F946UZKEATT" class="buy-button"> Buy Now</a>
+      </button></div>
+    </div>
+  </div>
+  <center>
+    <div
+      style="background-image: url(https://images.samsung.com/is/image/samsung/assets/us/home/06242024/SDSAC-7649_ShopApp_Offer_Banner_DT_1440x350.jpg?$1440_N_JPG$) ; width: 1440px; height: 350px; margin-top: 45px; display: flex; align-items: left;  flex-direction: column; ">
+      <p style="font-size: .97vw; padding-top: 30px; padding-right: 1150px;  "><b>App Exclusive Offer</b></p>
+      <h2 style="padding-right: 1000px; font-size: 55px; font-weight: bolder; margin: 0px; "><b> Get $50 off </b> </h2>
+      <p style="padding-right: 500px; font-size: 1.25vw; width: 600px; text-align: left; padding-left: 80px;">When you spend $500 or more on your first Shop Samsung App purchase. </p>
+  </center>
+  <center>
+    </div>
+    <div
+      style=" background-image: url(https://images.samsung.com/is/image/samsung/assets/us/05262024/SDSAC-7185-S24U-HP-LOB-FullBleed-DT-1440x810.jpg?$1440_810_JPG$); height: 810px; width: 1440px;">
+
+    </div>
+    <div
+      style="background-image: url(https://images.samsung.com/is/image/samsung/assets/us/home/06282024-2/W27_LoB1_D_1440x810-1x.jpg?$1440_810_JPG$); height: 810px; width: 1440px;">
+    </div>
+    <div
+      style="background-image: url(https://images.samsung.com/is/image/samsung/assets/us/home/06182024-2/LOB1_Bundle-DT.jpg?$1440_810_JPG$); height: 810px; width: 1440px;">
+    </div>
+    <div
+      style="background-image: url(//images.samsung.com/is/image/samsung/assets/us/home/04192024/EarthDay-KVSGlobal-Recycling-Day_KV_HP_DT_1440X810_2.jpg?$1440_810_JPG$); height: 810px; width: 1440px;">
+    </div>
+  </center>
+
+
+
+
+</body>
+
+</html>
